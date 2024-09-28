@@ -10,7 +10,7 @@ public class ExecuteUpdateUpdateUser {
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		Connection connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbcwk", "root", "root");
 		Statement statement=connection.createStatement();
-		int results=statement.executeUpdate("update user set name='poojith' where id =2");
+		int results=statement.executeUpdate("update user set name='poojitha' where id =2000");
 		System.out.println(results);
 		connection.close();
 		System.out.println("Data updated with the help of ExecuteUpdate method");

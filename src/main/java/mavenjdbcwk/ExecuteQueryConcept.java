@@ -13,11 +13,12 @@ public static void main(String[] args) throws Exception {
 ////	Create a Statement
 //	Statement statement=connection.createStatement();
 ////	Execute a query
-//	statement.executeQuer("insert into user values(2,'himesh','hyderabad')");
+//	statement.executeQuery("insert into user values(2,'himesh','hyderabad')");
 ////	close the connection
 //	connection.close();
 //	
 //	System.out.println("Data inserted successfully");
+//	EXception
 	
 //	Class.forName("com.mysql.cj.jdbc.Driver");
 //	Connection connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbcwk","root","root");
@@ -25,6 +26,8 @@ public static void main(String[] args) throws Exception {
 //	statement.executeQuery("Update user set name='mohan' where id=1");
 //	connection.close();
 //	System.out.println("Data Updated successfully");
+//	exception
+	
 	
 	Class.forName("com.mysql.cj.jdbc.Driver");
 	Connection connection=DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbcwk", "root", "root");

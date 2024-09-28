@@ -14,7 +14,7 @@ public static void main(String[] args) throws ClassNotFoundException, SQLExcepti
 //	Create a Statement
 	Statement statement=connection.createStatement();
 //	Execute a query
-	statement.execute("insert into user values(2,'himesh','hyderabad')");
+	statement.execute("insert into user values(89,'himesh','hyderabad')");
 //	close the connection
 	connection.close();
 	
