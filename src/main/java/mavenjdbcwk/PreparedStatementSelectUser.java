@@ -22,21 +22,8 @@ public static void main(String[] args) throws Exception {
 		System.out.println(resultSet.getString("name"));
 		System.out.println(resultSet.getString("address"));
 	}
-	
 	connection.close();
-	System.out.println("data fetched successfully");
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	System.out.println("data fetched successfully");	
 }
 
 }
